@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #741a50;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #36152f;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #962069;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #db349b;
+    background-color: ;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+}
+
+.portfolio .projects {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project {
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #db349b;
+    background-color: ;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #db349b;
+    background-color: ;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #db349b;
+    background-color: ;
+    color: white;
+}
